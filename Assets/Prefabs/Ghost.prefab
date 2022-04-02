@@ -1003,11 +1003,33 @@ PrefabInstance:
       propertyPath: m_Name
       value: PointOfView
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2437634289763398765, guid: cbed642f8cf64a647ae95b452154ab74, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: cbed642f8cf64a647ae95b452154ab74, type: 3}
+--- !u!1 &551254588832152345 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1025865136426796327, guid: cbed642f8cf64a647ae95b452154ab74,
+    type: 3}
+  m_PrefabInstance: {fileID: 692122541045169726}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &303234839030984302 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 986191226497618000, guid: cbed642f8cf64a647ae95b452154ab74,
     type: 3}
   m_PrefabInstance: {fileID: 692122541045169726}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7995072943310213674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551254588832152345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 057aed03b8d2ea649a609461dd886cae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerGameObjectTransform: {fileID: 0}
+  gameEndingObject: {fileID: 0}
+  detectionRange: 1
